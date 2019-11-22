@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="searchbox.css">
+</head>
+<body>
+<div class="content">
+    <div class="top">
+        <div class="cont-wrappes">
+        <div class="cont-wrapper">
+        <i class="icon-tipa"></i>
+        <p>京东不会以任何理由要求您转账汇款，谨防诈骗。</p >
+        </div>
+        </div>
+    </div>
+    <div class="keys">
+        <div class="login-key1">
+            <a id="option1" class="option1 selected">扫码登录</a>
+    </div>
+    <div class="login-key2">
+        <a id="option2" class="option2">账户登录</a>
+</div>
+</div>
+    <div  id="loginBox" class="loginBox" style="display:none;visibility: visible">
+<div class="main">
+    <form class="login-form" method="post" novalidate>
+        <!--输入框-->
+        <div class="input-content">
+            <!--autoFocus-->
+            <div class="stem-fore1">
+                <i class="icon-user name-labes"></i>
+                <input type="text" autocomplete="off" placeholder="邮箱/用户名/登录手机" name="userNameOrEmailAddress"
+                       required />
+            </div>
+            <div class="stem-fore2" style="margin-top: 18px">
+                <i class="icon-user pwd-labes"></i>
+                <input type="password"autocomplete="off" placeholder="密码" name="nloginpwd"tabindex="2" required
+                       maxlength="32" />
+            </div>
+            <div class="foor">
+                <div class="right"><span>忘记密码</span></div>
+                <div class="login-btn" style="text-align: center">
+                    <button type="submit" class="enter-btn">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+    <div  id="qrcodeLogin" class="qrcodeLogin" style="display: block;visibility: visible">
+        <div class="mc">
+        <div class="qrcode-main">
+            <div class="qrcode-img">
+                <img src="img/show.png" alt>
+            </div>
+            <div class="qrcode-help"></div>
+        </div>
+            <div class="qrcode-panel">
+                <ul>
+                    <li>
+                        <span>打开</span>
+                        <a href="#"><span class="jd">手机京东</span></a>
+                    </li>
+                    <li>扫描二维码</li>
+                </ul>
+            </div>
+            <div class="coagent qr-coagent">
+            <ul>
+                <li>
+                    <b></b>
+                    <em>免输入</em>
+                </li>
+                <li>
+                    <b class="faster"></b>
+                    <em>更快&nbsp;</em>
+                </li>
+                <li>
+                    <b class="safe"></b>
+                    <em>更安全</em>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <div class="coagent">
+        <ul>
+            <li>
+            <b></b>
+            <a href="#" class="pdl">
+            <b class="QQ-com"></b>
+                <span>QQ</span>
+            </a>
+                <span class="line">|</span>
+            </li>
+            <li>
+                <a href="#" class="pdl">
+                    <b class="weixin-com"></b>
+                    <span>微信</span>
+                </a>
+            </li>
+            <li class="register">
+                <div>
+                    <div class="regist-link">
+                        <a href="#">
+                            <b></b>
+                            立即注册
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

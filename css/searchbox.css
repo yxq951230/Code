@@ -1,0 +1,303 @@
+body {
+    background: #fff;
+    font: 12px/150% Arial;
+    font-family:"微软雅黑";
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.content {
+    margin: 0 auto;
+    width: 350px;
+}
+.top {
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cont-wrappes .cont-wrapper{
+    display: inline-block;
+    width: 90%;
+}
+.top .icon-tipa{
+    background: url("img/icon-tips.png");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 1px;
+}
+.top .cont-wrappes p{
+    vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+}
+.keys {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f4f4f4;
+
+}
+.login-key1,
+.login-key2 {
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.login-key1 {
+    border-right: 1px solid #f4f4f4;
+}
+.main {
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    width: 305px;
+    height: 240px;
+    background: #ffffff;
+}
+.title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.title span {
+    font-size: 18px;
+    color: #353f42;
+}
+.title-msg {
+    width: 100%;
+    height: 30px;
+}
+.title:hover {
+    cursor: default;
+}
+.title-msg:hover {
+    cursor: default;
+}
+.title-msg span {
+    font-size: 12px;
+    color: #707472;
+}
+.input-content {
+    width: 100%;
+    height: 120px;
+}
+.name-labes{
+    background-position: 0 0;
+}
+.pwd-labes{
+    background-position: -48px 0;
+}
+.icon-user{
+    position: absolute;
+    background-image: url("img/pwd-icons-new.png");
+    border-right: 1px solid #bdbdbd;
+    width: 38px;
+    height: 38px;
+}
+.input-content input {
+    width: 253px;
+    line-height: 18px;
+    height: 18px;
+    border: 1px solid #dad9d6;
+    padding: 10px 0 10px 50px;
+}
+.enter-btn {
+    cursor: pointer;
+    width: 305px;
+    height: 40px;
+    color: #fff;
+    background: #e1251b;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    border: 0px;
+    margin-top: 23px;
+}
+.foor {
+    width: 100%;
+    height: auto;
+    color: #9b9c98;
+    font-size: 12px;
+    margin-top: 18px;
+}
+a.option1:hover{
+    color: #e1251b;
+}
+a.option2:hover{
+    color: #e1251b;
+}
+.selected {
+    color: #e1251b;
+}
+.foor div:hover {
+    cursor: pointer;
+    color: #e1251b;
+    font-weight: 700;
+}
+.right {
+    float: right;
+}
+a{
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+}
+.coagent li{
+    float: left;
+}
+ol, ul{list-style: none;}
+.coagent{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 50px;
+    border-top: 1px solid #f4f4f4;
+    height: 40px;
+    background-color: #fcfcfc;
+}
+.coagent li a.pdl {
+    display: inline-block;
+    position: relative;
+    padding-left: 24px;
+}
+.coagent li a.pdl b.QQ-com{
+    background-position: 0 0;
+}
+.coagent li a.pdl b {
+    width: 19px;
+    height: 18px;
+    display: block;
+    background: url(img/QQ-weixin.png) no-repeat;
+    margin: 0 auto;
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 16px;
+}
+.coagent li .line {
+    color: #ccc;
+    padding: 0 10px;
+}
+.coagent li a.pdl b.weixin-com {
+    background-position: -20px 0;
+}
+.coagent .regist-link b {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url(img/pwd-icons-new.png) -104px -75px no-repeat;
+    vertical-align: middle;
+    margin-right: -2px;
+    margin-top: -3px;
+}
+.coagent li.register{
+    float: right;
+}
+.coagent .regist-link a{
+    color: #b61d1d;
+    font-size: 14px;
+}
+.qrcodeLogin{
+    width: 306px;
+    padding: 20px 18px 20px 20px;
+    text-align: center;
+}
+.qrcode-img img{
+    width: 147px;
+    height: 147px;
+}
+.qrcode-main{
+    position: relative;
+    height: 168px;
+}
+.qrcode-img{
+    display: block;
+    border:1px solid #f4f4f4;
+    padding: 8px;
+    width: 155px;
+    left: 64px;
+    position: absolute;
+    transition: all .3s ease;
+}
+.qrcode-help{
+    position: absolute;
+    display: none;
+    right: -18px;
+    top: -2px;
+    width: 141px;
+    height: 168px;
+    background: url(img/phone-orange.png) no-repeat;
+    transition: display .3s ease;
+}
+.qrcode-main:hover .qrcode-img {
+    left: 0px;
+}
+.qrcode-main:hover .qrcode-help{
+    display: block;
+}
+.qrcode-panel{
+    width: 258px;
+    margin: 18px auto 14px;
+    text-align: center;
+}
+.qrcode-panel a{
+    color: #e1251b;
+    margin-left: -2px;
+}
+.qrcode-panel li{
+    display: inline-block;
+    padding: 0 0 0 5px;
+    margin: 0 5px 0 0;
+}
+.qr-coagent{
+    color: #999;
+    font-family: "微软雅黑";
+    border: none;
+    padding: 0;
+    line-height: 25px;
+    margin-left: 40px;
+    margin-bottom: -10px;
+    background-color: #fff;
+}
+.coagent ul{
+    display: inline-block;
+    display: block;
+}
+.qr-coagent li{
+    text-align: left;
+    position: relative;
+    margin-right: 18px;
+}
+.coagent li {
+    float: left;
+}
+.qr-coagent li b{
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: url(img/qr-coagent.png) no-repeat;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+}
+.qr-coagent li em{
+    padding-left: 32px;
+}
+em{font-style: normal;}
+.qr-coagent li .faster{
+    background-position: -27px;
+}
+.qr-coagent li .safe{
+    background-position: -54px;
+}
